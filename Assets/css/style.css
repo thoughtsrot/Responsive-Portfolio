@@ -142,3 +142,89 @@ footer {
     height: 20px;
 }
 
+/* Begin media queries */
+
+@media screen and (max-width: 980px) {
+
+    .mainContain, .headContain {
+        width: 75%;
+    }
+
+    .portContainer {
+        margin: 20px auto;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .mainContain, .headContain {
+        width: 90%;
+    }
+
+    .portContainer{
+        width: 75%;
+        height: 75%;
+        margin: auto;
+    }
+
+    .myImage {
+        width: 300px;
+        height:300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+        header {
+            position: static;
+            overflow: hidden;
+            margin: 0px;
+        }
+
+        .mainContain {
+            width: 95%;
+        }
+
+        .headContain {
+            width: 100%;
+            margin: 0px;
+        }
+
+        .nameHeading {
+            float: none;
+            display: block;
+            margin: 0px;
+            text-align: center;
+        }
+
+        .links {
+            display: block;
+            text-align: center;
+        }
+    
+        .portContainer{
+            width: 90%;
+            height: 90%;
+            margin: 20px;
+        }
+
+        .portImg {
+            float: none;
+            display:block;
+            padding: 10px;
+        }
+
+        .portText {
+            bottom: 60px;
+        }
+        .myImage {
+            float: none;
+            display: block;
+            width: 350px;
+            height: 350px;
+            margin: auto;
+        }
+        
+}
