@@ -151,7 +151,7 @@ footer {
     }
 
     .portContainer {
-        margin: 20px auto;
+        margin: 20px;
     }
 
     
@@ -164,9 +164,8 @@ footer {
     }
 
     .portContainer{
-        width: 75%;
-        height: 75%;
-        margin: auto;
+        width: 45%;
+        margin: 10px;
     }
 
     .myImage {
@@ -218,6 +217,7 @@ footer {
 
         .portText {
             bottom: 60px;
+            left: 10px;
         }
         .myImage {
             float: none;
